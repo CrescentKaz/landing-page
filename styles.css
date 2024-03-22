@@ -20,6 +20,10 @@
     margin: 0;
 }
 
+h1, h2, h3, p {
+    background-color: transparent;
+}
+
 #nav_bar {
     position: fixed;
     height: 5%;
