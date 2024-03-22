@@ -56,54 +56,9 @@ ul li {
     flex-direction: column;
 }
 
-.star {
-    background-color: yellow;
-    display: flex;
-    position: absolute;
-    height: 15px;
-    width: 10px;
-    border-radius: 500% 0% 0% 0%;
-    z-index: 2;
-}
-
-.point1 {
-    transform: rotate(60deg);
-}
-
-.point2 {
-    transform: rotate(120deg);
-}
-
-.point3 {
-    transform: rotate(180deg);
-}
-
-.point4 {
-    transform: rotate(240deg);
-}
-
-.point5 {
-    transform: rotate(300deg);
-}
-
-.header-name {
-    color: red;
-    z-index: 2;
-}
-
 #projects {
     position: relative;
     background-color: var(--dark_purple);
-    height: 100vh;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    flex-direction: column;
-}
-
-#certs {
-    position: relative;
-    background-color: var(--dark_blue);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -117,4 +72,14 @@ ul li {
     display: flex;
     justify-content: center;
     align-items: center;
+}
+
+#socials {
+    position: relative;
+    background-color: var(--dark_purple);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
 }
