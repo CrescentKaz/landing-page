@@ -18,11 +18,15 @@
 * {
     padding: 0;
     margin: 0;
+    background-color: var(--blackish);
+    color: red;
 }
 
 h1, h2, h3, p {
     color: var(--pastel_blue);
     background-color: var(--royal_blue);
+    display: flex;
+    align-content: center;
 }
 
 #nav_bar {
