@@ -54,7 +54,7 @@ ul li {
     align-items: center;
 }
 
-h1 {
+#title-section h1 {
     color: red;
     background-color: var(--blackish);
 }
