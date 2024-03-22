@@ -46,16 +46,16 @@ ul li {
 }
 
 #title-section {
-    height: 100vh;
     position: relative;
     background-color: var(--blackish);
+    height: 100vh;
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 h1 {
-    color: var(--pastel_blue);
+    color: red;
     background-color: var(--blackish);
 }
 
