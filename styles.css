@@ -47,16 +47,48 @@ ul li {
 
 #title-section {
     position: relative;
-    background-color: var(--blackish);
-    height: 100vh;
+    background-color: red;
+    color: red;
+    height: 125vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
 }
 
-#title-section h1 {
+.star {
+    background-color: yellow;
+    display: flex;
+    position: absolute;
+    height: 15px;
+    width: 10px;
+    border-radius: 500% 0% 0% 0%;
+    z-index: 2;
+}
+
+.point1 {
+    transform: rotate(60deg);
+}
+
+.point2 {
+    transform: rotate(120deg);
+}
+
+.point3 {
+    transform: rotate(180deg);
+}
+
+.point4 {
+    transform: rotate(240deg);
+}
+
+.point5 {
+    transform: rotate(300deg);
+}
+
+.header-name {
     color: red;
-    background-color: var(--blackish);
+    z-index: 2;
 }
 
 #projects {
