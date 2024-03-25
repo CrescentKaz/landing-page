@@ -60,19 +60,23 @@ ul li {
 
 #title_section {
     background-color: var(--dark_blue);
+    color: var(--light_purple);
 }
 
 #projects {
     background-color: var(--dark_purple);
+    color: var(--pastel_blue);
 }
 
 #about_me {
-    background-color: var(--navy_black);
+    background-color: var(--dark_blue);
+    color: var(--light_purple);
 }
 
 #socials {
     position: relative;
     background-color: var(--dark_purple);
+    color: var(--pastel_blue);
     height: 10vh;
     width: 95vw;
     flex-direction: row;
