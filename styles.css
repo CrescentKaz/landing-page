@@ -52,27 +52,28 @@ ul li {
     text-decoration: none;
 }
 
-#title_section {
+#title_section, #projects, #about_me {
     position: relative;
+    height: 100vh
+    width: 95vw;
+}
+
+#title_section {
     background-color: var(--dark_blue);
-    height: 100vh;
 }
 
 #projects {
-    position: relative;
     background-color: var(--dark_purple);
-    height: 100vh;
 }
 
 #about_me {
-    position: relative;
     background-color: var(--navy_black);
-    height: 100vh;
 }
 
 #socials {
     position: relative;
     background-color: var(--dark_purple);
     height: 10vh;
+    width: 95vw;
     flex-direction: row;
 }
