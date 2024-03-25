@@ -22,8 +22,9 @@ body {
     color: var(--whiteish);
     display: flex;
     flex-direction: column;
-    align-content: center;
+    align-items: center;
     justify-content: center;
+    align-content: center;
 }
 
 h1, h2, h3, p {
