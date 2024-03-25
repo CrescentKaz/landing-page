@@ -23,17 +23,15 @@
 }
 
 h1, h2, h3, p {
-    color: var(--pastel_blue);
-    background-color: var(--royal_blue);
     display: flex;
     align-content: center;
+    color: var(--pastel_blue);
 }
 
 #nav_bar {
     position: fixed;
     height: 5%;
     background-color: var(--dark_purple);
-    font-color: var(--light_purple);
     width: 100%;
     margin-top: 5;
     z-index: 1;
@@ -50,15 +48,13 @@ h1, h2, h3, p {
 
 ul li {
     padding: 10px 15px 0 15px;
-    color: red;
     text-decoration: none;
 }
 
 #title_section {
     position: relative;
-    background-color: red;
-    color: red;
-    height: 125vh;
+    background-color: var(--dark_blue);
+    height: 105vh;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -86,7 +82,7 @@ ul li {
 #socials {
     position: relative;
     background-color: var(--dark_purple);
-    height: 100vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
