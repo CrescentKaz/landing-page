@@ -77,7 +77,6 @@ ul li {
 #about_me {
     background-color: var(--dark_blue);
     color: var(--light_purple);
-    justify-content: space-evenly;
 }
 
 .para {
@@ -92,6 +91,7 @@ ul li {
     width: 95vw;
     flex-direction: row;
     align-items: center;
+    justify-content: space-around;
 }
 
 footer {
@@ -101,4 +101,5 @@ footer {
     align-items: center;
     justify-content: flex-start;
     background-color: var(--blackish);
+    color: var(--whiteish);
 }
