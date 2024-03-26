@@ -20,8 +20,9 @@ html {
     color: var(--whiteish);
 }
 
-h1, h2, h3, p {
+h1, h2, h3, .para {
     color: var(--pastel_blue);
+    justify-content: center;
 }
 
 #nav_bar {
