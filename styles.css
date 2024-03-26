@@ -22,6 +22,7 @@ html {
 
 h1, h2, h3, .para {
     color: var(--pastel_blue);
+    align-items: center;
     justify-content: center;
 }
 
@@ -61,23 +62,28 @@ ul li {
     width: 95vw;
     display: flex;
     flex-direction: column;
-    align-content: center;
-    justify-content: center;
 }
 
 #title_section {
     background-color: var(--dark_blue);
     color: var(--light_purple);
+    align-content: center;
+    justify-content: center;
 }
 
 #projects {
     background-color: var(--dark_purple);
     color: var(--pastel_blue);
+    align-items: center;
+    align-content: center;
+    justify-content: center;
 }
 
 #about_me {
     background-color: var(--dark_blue);
     color: var(--light_purple);
+    align-content: center;
+    justify-content: center;
 }
 
 .para {
