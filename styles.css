@@ -82,11 +82,11 @@ ul li {
 #about_me {
     background-color: var(--dark_blue);
     color: var(--light_purple);
+    justify-content: space-evenly;
 }
 
 .para {
     padding: 10px;
-    justify-content: space-evenly;
 }
 
 #socials {
@@ -96,7 +96,7 @@ ul li {
     height: 10vh;
     width: 95vw;
     flex-direction: row;
-    align-content: center;
+    align-items: center;
 }
 
 footer {
