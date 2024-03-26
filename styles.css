@@ -100,4 +100,5 @@ ul li {
 
 footer {
     position: relative;
+    flex-direction: column;
 }
