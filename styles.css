@@ -38,6 +38,13 @@ h1, h2, h3, p {
     z-index: 1;
 }
 
+.nav-button {
+    flex-direction: row;
+    justify-content: flex-start;
+    align-content: center;
+    color: var(--light_purple);
+}
+
 .nav-items {
     list-style: none;
     flex-direction: row;
@@ -74,6 +81,10 @@ ul li {
 #about_me {
     background-color: var(--dark_blue);
     color: var(--light_purple);
+}
+
+.para {
+    padding: 10px;
 }
 
 #socials {
