@@ -23,6 +23,11 @@ html {
     margin: 0;
 }
 
+main {
+    display: flex;
+    align-content: center;
+}
+
 h1, h2, h3, .para {
     color: var(--pastel_blue);
     align-items: center;
