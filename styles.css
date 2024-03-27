@@ -21,17 +21,16 @@ html {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-}
-
-main {
     display: flex;
     flex-direction: column;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 h1, h2, h3, .para {
     color: var(--pastel_blue);
-    align-items: center;
-    justify-content: center;
 }
 
 #nav_bar {
@@ -48,7 +47,6 @@ h1, h2, h3, .para {
     padding: 10px 15px 0 15px;
     flex-direction: row;
     justify-content: flex-start;
-    align-content: center;
 }
 
 ul li {
@@ -59,7 +57,6 @@ ul li {
 .nav-items {
     color: var(--light_purple);
     text-decoration: none;
-    display: flex;
     flex-direction: row;
     justify-content: flex-end;
     align-content: flex-start;
@@ -70,8 +67,6 @@ ul li {
     display: flex;
     height: 100vh;
     width: 95vw;
-    flex-direction: column;
-    align-items: center; 
 }
 
 #title_section {
@@ -100,15 +95,11 @@ ul li {
     height: 10vh;
     width: 95vw;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
 }
 
 footer {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
     background-color: var(--blackish);
     color: var(--whiteish);
