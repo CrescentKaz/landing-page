@@ -72,6 +72,7 @@ ul li {
     height: 100vh;
     width: 95vw;
     flex-direction: column;
+    justify-content: center;
     align-items: center; 
 }
 
