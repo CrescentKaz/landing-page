@@ -37,10 +37,9 @@ h1, h2, h3, .para {
 
 #nav_bar {
     position: fixed;
-    height: 5%;
+    height: 5vh;
+    width: 10vw;
     background-color: var(--dark_purple);
-    width: 100%;
-    margin-top: 5;
     z-index: 1;
     display: flex;
     flex-direction: row;
@@ -48,13 +47,14 @@ h1, h2, h3, .para {
 
 .nav-button {
     padding: 10px 15px 0 15px;
+    display: flex;
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
 }
 
 ul li {
-    padding: 10px 0 0 15px;
+    padding: 0 0 0 0;
     list-style: none;
 }
 
@@ -64,14 +64,14 @@ ul li {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-items: flex-start;
+    align-items: center;
 }
 
 #title_section, #projects, #about_me {
     position: relative;
     display: flex;
     height: 100vh;
-    width: 95vw;
+    width: 100vw;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
