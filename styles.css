@@ -21,7 +21,7 @@ html {
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    align-content: center;
+    align-items: center;
 }
 
 main {
@@ -31,8 +31,8 @@ main {
 
 h1, h2, h3, .para {
     color: var(--pastel_blue);
-    align-items: center;
     justify-content: center;
+    align-items: center;
 }
 
 #nav_bar {
@@ -49,7 +49,7 @@ h1, h2, h3, .para {
     padding: 10px 15px 0 15px;
     flex-direction: row;
     justify-content: flex-start;
-    align-content: center;
+    align-items: center;
 }
 
 ul li {
@@ -63,7 +63,7 @@ ul li {
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
-    align-content: flex-start;
+    align-items: flex-start;
 }
 
 #title_section, #projects, #about_me {
@@ -102,16 +102,16 @@ ul li {
     height: 10vh;
     width: 95vw;
     flex-direction: row;
-    align-items: center;
     justify-content: space-around;
+    align-items: center;
 }
 
 footer {
     position: relative;
     display: flex;
     flex-direction: column;
-    align-items: center;
     justify-content: flex-start;
+    align-items: center;
     background-color: var(--blackish);
     color: var(--whiteish);
 }
