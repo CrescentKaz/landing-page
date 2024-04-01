@@ -40,7 +40,7 @@ h1, h2, h3, .para {
     position: fixed;
     top: 0;
     height: 5vh;
-    width: 100vw;
+    width: 100%;
     color: var(--whiteish);
     background-color: var(--dark_purple);
     z-index: 1;
