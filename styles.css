@@ -37,6 +37,7 @@ h1, h2, h3, .para {
 
 #nav_bar {
     position: fixed;
+    top: 0;
     height: 5vh;
     width: 100vw;
     background-color: var(--dark_purple);
@@ -46,7 +47,7 @@ h1, h2, h3, .para {
 }
 
 .nav-button {
-    padding: 10px 15px 0 15px;
+    margin: 10px 15px 0 15px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
