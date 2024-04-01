@@ -22,6 +22,7 @@ html {
     padding: 0;
     margin: 0;
     align-items: center;
+    width: 95%
 }
 
 main {
@@ -40,14 +41,16 @@ h1, h2, h3, .para {
     top: 0;
     height: 5vh;
     width: 100vw;
+    color: var(--whiteish);
     background-color: var(--dark_purple);
     z-index: 1;
     display: flex;
     flex-direction: row;
+    text-decoration: none;
 }
 
 .nav-button {
-    margin: 10px 15px 0 15px;
+    margin: 0 15px 0 15px;
     display: flex;
     flex-direction: row;
     justify-content: flex-start;
@@ -59,12 +62,9 @@ h1, h2, h3, .para {
 ul li {
     padding: 0 5px 0 5px;
     list-style: none;
-    text-decoration: none; 
 }
 
 .nav-items {
-    color: var(--whiteish);
-    text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: flex-end;
