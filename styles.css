@@ -51,15 +51,18 @@ h1, h2, h3, .para {
     flex-direction: row;
     justify-content: flex-start;
     align-items: center;
+    background-color: var(--blackish);
+    color: var(--pastel_blue);
 }
 
 ul li {
     padding: 0 5px 0 5px;
     list-style: none;
+    text-decoration: none; 
 }
 
 .nav-items {
-    color: var(--light_purple);
+    color: var(--whiteish);
     text-decoration: none;
     display: flex;
     flex-direction: row;
