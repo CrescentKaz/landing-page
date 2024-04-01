@@ -42,7 +42,7 @@ h1, h2, h3, .para {
     width: 100%;
     margin-top: 5;
     z-index: 1;
-    flex-wrap: nowrap;
+    display: inline;
 }
 
 .nav-button {
