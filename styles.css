@@ -75,7 +75,7 @@ ul li {
     position: relative;
     display: flex;
     height: 100vh;
-    width: 100vw;
+    width: 100%;
     flex-direction: column;
     justify-content: center;
     align-items: center; 
@@ -96,6 +96,10 @@ ul li {
     color: var(--light_purple);
 }
 
+#about_me h3 {
+    padding: 15px 0 0 0;
+}
+
 .para {
     padding: 10px;
 }
@@ -105,7 +109,7 @@ ul li {
     background-color: var(--dark_purple);
     color: var(--pastel_blue);
     height: 10vh;
-    width: 95vw;
+    width: 100%;
     flex-direction: row;
     justify-content: space-around;
     align-items: center;
