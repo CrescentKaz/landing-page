@@ -105,7 +105,7 @@ ul li {
 }
 
 #socials {
-    height: 10vh;
+    height: 10%;
     flex-direction: row;
     justify-content: space-around;
     background-color: var(--dark_purple);
