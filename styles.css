@@ -71,7 +71,7 @@ ul li {
     align-items: center;
 }
 
-#title_section, #projects, #about_me {
+#title_section, #projects, #about_me, #socials {
     position: relative;
     display: flex;
     height: 100vh;
@@ -105,14 +105,11 @@ ul li {
 }
 
 #socials {
-    position: relative;
-    background-color: var(--dark_purple);
-    color: var(--pastel_blue);
     height: 10vh;
-    width: 100%;
     flex-direction: row;
     justify-content: space-around;
-    align-items: center;
+    background-color: var(--dark_purple);
+    color: var(--pastel_blue);
 }
 
 footer {
