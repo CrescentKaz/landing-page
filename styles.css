@@ -71,6 +71,7 @@ ul li {
     display: flex;
     justify-content: center; 
     align-items: center; 
+    flex-direction: column;
 }
 
 #title_section {
@@ -81,7 +82,6 @@ ul li {
 #projects {
     background-color: var(--dark_purple);
     color: var(--pastel_blue);
-    flex-direction: column;
 }
 
 #about_me {
