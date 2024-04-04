@@ -19,8 +19,12 @@ body {
     background-color: var(--blackish);
     color: var(--whiteish);
     box-sizing: border-box;
-    margin: 0px auto;
-    padding: auto;
+    margin: 0 auto;
+    padding: 0;
+}
+
+main {
+    display: flex;
 }
 
 #nav_bar {
@@ -101,6 +105,4 @@ h1, h2, h3, .para {
 
 footer {
     position: relative;
-    background-color: var(--blackish);
-    color: var(--whiteish);
 }
