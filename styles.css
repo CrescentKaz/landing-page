@@ -9,17 +9,17 @@
     --whiteish: #FCFCFC;
 }
 
-@media (min-width: 993px) {
+@media (min-width: 75em) {
     body {
         font-size: 150%;
     }
 }
 
-body {
+* {
     background-color: var(--blackish);
     color: var(--whiteish);
     box-sizing: border-box;
-    margin: 0 auto;
+    margin: 0;
     padding: 0;
 }
 
@@ -38,6 +38,7 @@ main {
     display: flex;
     flex-direction: row;
     text-decoration: none;
+    margin-top: 5;
 }
 
 .nav-button {
@@ -52,19 +53,22 @@ main {
 
 ul li {
     padding: 0 5px 0 5px;
-    list-style: none;
+    text-decoration: none; 
 }
 
 .nav-items {
     display: flex;
     flex-direction: row;
-    float: right;
+    justify-content: flex-end;
     align-items: center;
+    list-style: none;
 }
 
 #title_section, #projects, #about_me {
     position: relative;
     min-height: 100vh;
+    display: flex;
+    justify-content: center; 
     align-items: center; 
 }
 
@@ -76,6 +80,7 @@ ul li {
 #projects {
     background-color: var(--dark_purple);
     color: var(--pastel_blue);
+    flex-direction: column;
 }
 
 #about_me {
@@ -90,7 +95,9 @@ ul li {
 #socials {
     position: relative;
     height: 10%;
+    display: flex; 
     justify-content: space-around;
+    align-items: center;
     background-color: var(--dark_purple);
     color: var(--pastel_blue);
 }
