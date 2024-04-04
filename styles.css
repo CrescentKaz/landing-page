@@ -9,30 +9,20 @@
     --whiteish: #FCFCFC;
 }
 
-@media (min-width: 75em) {
-    html {
+@media (min-width: 993px) {
+    body {
         font-size: 150%;
     }
 }
 
-html {
+body {
     background-color: var(--blackish);
     color: var(--whiteish);
     box-sizing: border-box;
-    padding: 0;
+    padding: auto;
     margin: 0;
-    align-items: center;
-    width: 95%;
-}
-
-main {
     display: flex;
     flex-direction: column;
-}
-
-h1, h2, h3, .para {
-    color: var(--pastel_blue);
-    justify-content: center;
     align-items: center;
 }
 
@@ -40,7 +30,6 @@ h1, h2, h3, .para {
     position: fixed;
     top: 0;
     height: 5vh;
-    width: 100%;
     color: var(--whiteish);
     background-color: var(--dark_purple);
     z-index: 1;
@@ -53,7 +42,7 @@ h1, h2, h3, .para {
     margin: 0 15px 0 15px;
     display: flex;
     flex-direction: row;
-    justify-content: flex-start;
+    float: left;
     align-items: center;
     background-color: var(--blackish);
     color: var(--pastel_blue);
@@ -67,17 +56,14 @@ ul li {
 .nav-items {
     display: flex;
     flex-direction: row;
-    justify-content: flex-end;
+    float: right;
     align-items: center;
 }
 
-#title_section, #projects, #about_me, #socials {
+#title_section, #projects, #about_me {
     position: relative;
-    display: flex;
     min-height: 100vh;
-    width: 100%;
-    flex-direction: column;
-    justify-content: center;
+    padding: 0 auto;
     align-items: center; 
 }
 
@@ -96,20 +82,28 @@ ul li {
     color: var(--light_purple);
 }
 
-#about_me h3 {
+#about_me > h3 {
     padding: 20px 0 0 0;
 }
 
-.para {
-    padding: 10px;
-}
-
 #socials {
+    position: relative;
     height: 10%;
     flex-direction: row;
     justify-content: space-around;
     background-color: var(--dark_purple);
     color: var(--pastel_blue);
+}
+
+h1, h2, h3, .para {
+    color: var(--pastel_blue);
+    font-family: "Open Sans", sans-serif;
+    justify-content: center;
+    align-items: center;
+}
+
+.para {
+    padding: 10px;
 }
 
 footer {
