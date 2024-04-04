@@ -15,7 +15,7 @@
     }
 }
 
-* {
+body {
     background-color: var(--blackish);
     color: var(--whiteish);
     box-sizing: border-box;
