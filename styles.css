@@ -19,11 +19,8 @@ body {
     background-color: var(--blackish);
     color: var(--whiteish);
     box-sizing: border-box;
+    margin: 0px auto;
     padding: auto;
-    margin: 0;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
 }
 
 #nav_bar {
@@ -63,7 +60,6 @@ ul li {
 #title_section, #projects, #about_me {
     position: relative;
     min-height: 100vh;
-    padding: 0 auto;
     align-items: center; 
 }
 
@@ -89,7 +85,6 @@ ul li {
 #socials {
     position: relative;
     height: 10%;
-    flex-direction: row;
     justify-content: space-around;
     background-color: var(--dark_purple);
     color: var(--pastel_blue);
@@ -98,8 +93,6 @@ ul li {
 h1, h2, h3, .para {
     color: var(--pastel_blue);
     font-family: "Open Sans", sans-serif;
-    justify-content: center;
-    align-items: center;
 }
 
 .para {
@@ -108,10 +101,6 @@ h1, h2, h3, .para {
 
 footer {
     position: relative;
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
     background-color: var(--blackish);
     color: var(--whiteish);
 }
