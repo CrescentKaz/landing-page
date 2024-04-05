@@ -131,4 +131,5 @@ h1, h2, h3, .para {
 footer {
     position: relative;
     left: 5%;
+    width: 100vw;
 }
