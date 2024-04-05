@@ -11,7 +11,7 @@
 
 @media (min-width: 75em) {
     body {
-        font-size: 150%;
+        font-size: 125%;
     }
 }
 
@@ -33,27 +33,29 @@ main {
     position: fixed;
     top: 0;
     height: 5vh;
+    width: 100vw;
     color: var(--whiteish);
     background-color: var(--dark_purple);
     z-index: 1;
     display: flex;
     flex-direction: row;
-    text-decoration: none;
+    justify-content: space-between;
     margin-top: 5;
 }
 
 .nav-button {
-    margin: 0 15px 0 15px;
+    margin: 0 15px;
     display: flex;
     flex-direction: row;
     float: left;
     align-items: center;
     background-color: var(--blackish);
     color: var(--pastel_blue);
+    border-radius: 0 50%;
 }
 
 ul li {
-    padding: 0 5px 0 5px;
+    padding: 0 40px 0 0;
     text-decoration: none; 
 }
 
@@ -82,6 +84,16 @@ ul li {
 #projects {
     background-color: var(--dark_purple);
     color: var(--pastel_blue);
+    text-decoration: none;
+}
+
+.project-title {
+    text-decoration: none;
+}
+
+.project-image {
+    height: 225px;
+    width: 225px;
 }
 
 #about_me {
@@ -95,7 +107,7 @@ ul li {
 
 #socials {
     position: relative;
-    height: 10%;
+    height: 5vh;
     display: flex; 
     justify-content: space-around;
     align-items: center;
@@ -106,12 +118,14 @@ ul li {
 h1, h2, h3, .para {
     color: var(--pastel_blue);
     font-family: "Open Sans", sans-serif;
+    text-decoration: none;
 }
 
 .para {
-    padding: 10px;
+    padding: 0 15%;
 }
 
 footer {
     position: relative;
+    left: 5%;
 }
