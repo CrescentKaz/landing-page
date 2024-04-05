@@ -13,6 +13,9 @@
     body {
         font-size: 125%;
     }
+    #nav-bar > li {
+        padding: 0 20px 0 0 ;
+    }
 }
 
 body {
