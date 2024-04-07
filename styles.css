@@ -60,6 +60,7 @@ main {
 ul li {
     padding: 0 40px 0 0;
     text-decoration: none; 
+    color: var(--whiteish);
 }
 
 .nav-items {
