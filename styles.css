@@ -14,7 +14,7 @@
         font-size: 125%;
     }
     #nav_bar a {
-        padding: 0 20px 0 0 ;
+        padding: 0 10px 0 0 ;
     }
 }
 
@@ -56,7 +56,7 @@ main {
     flex-direction: row;
     float: left;
     align-items: center;
-    background-color: var(--blackish);
+    background-color: linear-gradiant(45deg, var(--blackish), var(--royal_blue));
     color: var(--pastel_blue);
     border-radius: 0 50%;
 }
