@@ -13,7 +13,7 @@
     body {
         font-size: 125%;
     }
-    #nav-bar > li {
+    ul li {
         padding: 0 20px 0 0 ;
     }
 }
@@ -44,6 +44,11 @@ main {
     flex-direction: row;
     justify-content: space-between;
     margin-top: 5px;
+}
+
+#nav_bar a {
+    text-decoration: none; 
+    color: var(--whiteish);
 }
 
 .nav-button {
