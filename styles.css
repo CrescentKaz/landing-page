@@ -56,7 +56,7 @@ main {
     flex-direction: row;
     float: left;
     align-items: center;
-    background-color: linear-gradiant(45deg, var(--blackish), var(--royal_blue));
+    background-image: linear-gradient(45deg, var(--blackish), var(--royal_blue));
     color: var(--pastel_blue);
     border-radius: 0 50%;
 }
