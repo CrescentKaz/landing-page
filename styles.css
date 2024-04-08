@@ -13,7 +13,7 @@
     body {
         font-size: 125%;
     }
-    ul li {
+    #nav_bar a {
         padding: 0 20px 0 0 ;
     }
 }
@@ -37,7 +37,6 @@ main {
     top: 0;
     height: 5vh;
     width: 100vw;
-    color: var(--whiteish);
     background-color: var(--dark_purple);
     z-index: 1;
     display: flex;
@@ -64,8 +63,6 @@ main {
 
 ul li {
     padding: 0 40px 0 0;
-    text-decoration: none; 
-    color: var(--whiteish);
 }
 
 .nav-items {
