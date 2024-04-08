@@ -83,14 +83,14 @@ ul li {
 }
 
 #title_section {
-    background-color: var(--dark_blue);
     color: var(--light_purple);
+    background-image: linear-gradient(-45deg, var(--blackish), var(--dark_blue));
 }
 
 #projects {
-    background-color: var(--dark_purple);
     color: var(--pastel_blue);
     text-decoration: none;
+    background-image: linear-gradient(45deg, var(--blackish), var(--dark_purple));
 }
 
 .project-title {
@@ -105,6 +105,7 @@ ul li {
 #about_me {
     background-color: var(--dark_blue);
     color: var(--light_purple);
+    background-image: linear-gradient(-45deg, var(--blackish), var(--dark_blue));
 }
 
 #about_me > h3 {
@@ -117,8 +118,8 @@ ul li {
     display: flex; 
     justify-content: space-around;
     align-items: center;
-    background-color: var(--dark_purple);
     color: var(--pastel_blue);
+    background-image: linear-gradient(45deg, var(--blackish), var(--dark_purple));
 }
 
 h1, h2, h3, .para {
