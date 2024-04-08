@@ -42,7 +42,7 @@ main {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    margin-top: 5px;
+    padding-top: 5px;
 }
 
 #nav_bar a {
