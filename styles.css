@@ -60,6 +60,7 @@ main {
     color: var(--pastel_blue);
     border-radius: 0 50%;
     height: 4vh;
+    border: 2px solid linear-gradient(-45deg, var(--blackish), var(--whiteish))
 }
 
 ul li {
@@ -91,7 +92,7 @@ ul li {
 #projects {
     color: var(--pastel_blue);
     text-decoration: none;
-    background-image: linear-gradient(45deg, var(--blackish), var(--dark_purple));
+    background-image: linear-gradient(-135deg, var(--blackish), var(--dark_purple));
 }
 
 .project-title {
@@ -106,7 +107,7 @@ ul li {
 #about_me {
     background-color: var(--dark_blue);
     color: var(--light_purple);
-    background-image: linear-gradient(-45deg, var(--blackish), var(--dark_blue));
+    background-image: linear-gradient(45deg, var(--blackish), var(--dark_blue));
 }
 
 #about_me > h3 {
@@ -120,7 +121,7 @@ ul li {
     justify-content: space-around;
     align-items: center;
     color: var(--pastel_blue);
-    background-image: linear-gradient(45deg, var(--blackish), var(--dark_purple));
+    background-image: linear-gradient(135deg, var(--blackish), var(--dark_purple));
 }
 
 h1, h2, h3, .para {
@@ -135,6 +136,6 @@ h1, h2, h3, .para {
 
 footer {
     position: relative;
-    left: 5%;
+    padding-left: 5%;
     width: 100vw;
 }
