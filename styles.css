@@ -137,5 +137,5 @@ h1, h2, h3, .para {
 footer {
     position: relative;
     padding-left: 5%;
-    width: 100vw;
+    width: (100vw - 5%);
 }
