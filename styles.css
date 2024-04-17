@@ -82,6 +82,7 @@ ul li {
     justify-content: center; 
     align-items: center; 
     flex-direction: column;
+    padding: 5% 0;
 }
 
 #title_section {
