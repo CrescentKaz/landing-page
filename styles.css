@@ -125,6 +125,9 @@ ul li {
     background-image: linear-gradient(-45deg, var(--dark_purple) 50%, var(--blackish) 100%);
 }
 
+#socials > a {
+    color: var(--whiteish);
+}
 h1, h2, h3, .para {
     color: var(--pastel_blue);
     font-family: "Open Sans", sans-serif;
