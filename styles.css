@@ -1,11 +1,11 @@
 :root {
     --blackish: #010108;
-    --dark_purple: #1B0259;
-    --light_purple: #866BC9;
+    --dark_purple: #5e5e5e;
+    --light_purple: #aaaaaa;
     --navy_black: #0E0D30;
-    --dark_blue: #050178;
-    --royal_blue: #0704C2;
-    --pastel_blue: #4D7BF0;
+    --dark_blue: #5e5e5e;
+    --royal_blue: #626291;
+    --pastel_blue: #aaaaaa;
     --whiteish: #FCFCFC;
 }
 
