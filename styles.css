@@ -75,7 +75,7 @@ ul li {
     list-style: none;
 }
 
-#title_section, #projects, #about_me {
+#title_section, #project_section, #about_me {
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -90,7 +90,7 @@ ul li {
     background-image: linear-gradient(135deg, var(--dark_blue) 50%, var(--blackish) 100%);
 }
 
-#projects {
+#project_section {
     color: var(--pastel_blue);
     text-decoration: none;
     background-image: linear-gradient(45deg, var(--dark_purple) 50%, var(--blackish) 100%);
@@ -111,7 +111,7 @@ ul li {
     background-image: linear-gradient(-135deg, var(--dark_blue) 50%, var(--blackish) 100%);
 }
 
-#about_me > h3 {
+#about_me > h2 {
     padding: 20px 0 0 0;
 }
 
