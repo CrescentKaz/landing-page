@@ -99,10 +99,6 @@ ul li {
     justify-content: center;
 }
 
-.project-title {
-    text-decoration: none;
-}
-
 .project-image {
     height: 225px;
     width: 225px;
