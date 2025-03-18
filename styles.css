@@ -90,6 +90,10 @@ ul li {
     background-image: linear-gradient(135deg, var(--dark_blue) 50%, var(--blackish) 100%);
 }
 
+#project_section, #about_me, #socials {
+    display: none;
+}
+
 #project_section {
     color: var(--pastel_blue);
     text-decoration: none;
