@@ -1,12 +1,8 @@
 :root {
-    --blackish: #010108;
-    --dark_purple: #5e5e5e;
-    --light_purple: #aaaaaa;
-    --navy_black: #0E0D30;
-    --dark_blue: #5e5e5e;
-    --royal_blue: #626291;
-    --pastel_blue: #aaaaaa;
-    --whiteish: #FCFCFC;
+    --color1: #010108;
+    --color2: #FCFCFC;
+    --color3: #0c0357;
+    --color4: #41418f;
 }
 
 @media (min-width: 75em) {
@@ -19,8 +15,8 @@
 }
 
 body {
-    background-color: var(--blackish);
-    color: var(--whiteish);
+    background-color: var(--color1);
+    color: var(--color2);
     box-sizing: border-box;
     margin: 0;
     padding: 0;
@@ -30,6 +26,7 @@ main {
     display: flex;
     flex-direction: column;
     text-align: center;
+    background-image: linear-gradient(165deg, var(--color3) 80%, var(--color1) 100%);
 }
 
 #nav_bar {
@@ -37,7 +34,7 @@ main {
     top: 0;
     height: 5vh;
     width: 100vw;
-    background-color: var(--dark_purple);
+    background-color: var(--color4);
     z-index: 1;
     display: flex;
     flex-direction: row;
@@ -47,11 +44,11 @@ main {
 
 .nav-button {
     margin: 0 15px;
-    background-image: linear-gradient(45deg, var(--blackish), var(--royal_blue));
-    color: var(--pastel_blue);
+    background-image: linear-gradient(45deg, var(--color1), var(--color4));
+    color: var(--color2);
     border-radius: 0 50%;
     height: 4vh;
-    border: 1px solid var(--blackish);
+    border: 1px solid var(--color1);
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -65,7 +62,7 @@ main {
     float: right;
 }
 
-#title_section, #project_section, #about_me {
+#title_section, #project_section, #about_section {
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -76,14 +73,13 @@ main {
 }
 
 #title_section {
-    color: var(--light_purple);
-    background-image: linear-gradient(135deg, var(--dark_blue) 70%, var(--blackish) 100%);
+    color: var(--color2);
+    
 }
 
 #project_section {
-    color: var(--pastel_blue);
+    color: var(--color2);
     text-decoration: none;
-    background-image: linear-gradient(45deg, var(--dark_purple) 70%, var(--blackish) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,31 +90,29 @@ main {
     width: 225px;
 }
 
-#about_me {
-    background-color: var(--dark_blue);
-    color: var(--light_purple);
-    background-image: linear-gradient(-135deg, var(--dark_blue) 70%, var(--blackish) 100%);
+#about_section {
+    background-color: var(--color3);
+    color: var(--color2);
 }
 
-#about_me > h2 {
+#about_section > h2 {
     padding: 20px 0 0 0;
 }
 
-#socials {
+#social_section {
     position: relative;
     height: 5vh;
     display: flex; 
     justify-content: space-around;
     align-items: center;
-    color: var(--pastel_blue);
-    background-image: linear-gradient(-45deg, var(--dark_purple) 50%, var(--blackish) 100%);
+    color: var(--color2);
 }
 
-#socials > a {
-    color: var(--whiteish);
+#social_section > a {
+    color: var(--color2);
 }
 h1, h2, h3, .para {
-    color: var(--pastel_blue);
+    color: var(--color2);
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
 }
@@ -133,6 +127,6 @@ footer {
     width: (100vw - 5%);
 }
 
-#project_section, #about_me, #socials {
+#project_section, #about_section, #social_section {
     display: none;
 }
