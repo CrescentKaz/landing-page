@@ -45,13 +45,6 @@ main {
     padding-top: 5px;
 }
 
-#home_btn {
-    display: flex;
-    flex-direction: row;
-    float: left;
-    align-items: center;
-}
-
 .nav-button {
     margin: 0 15px;
     background-image: linear-gradient(45deg, var(--blackish), var(--royal_blue));
@@ -59,8 +52,18 @@ main {
     border-radius: 0 50%;
     height: 4vh;
     border: 1px solid var(--blackish);
+    display: flex;
+    flex-direction: row;
+    align-items: center;
 }
 
+#home_btn {
+    float: left;
+}
+
+#project_btn, #about_btn, #social_btn {
+    float: right;
+}
 
 #title_section, #project_section, #about_me {
     position: relative;
@@ -74,13 +77,13 @@ main {
 
 #title_section {
     color: var(--light_purple);
-    background-image: linear-gradient(135deg, var(--dark_blue) 50%, var(--blackish) 100%);
+    background-image: linear-gradient(135deg, var(--dark_blue) 70%, var(--blackish) 100%);
 }
 
 #project_section {
     color: var(--pastel_blue);
     text-decoration: none;
-    background-image: linear-gradient(45deg, var(--dark_purple) 50%, var(--blackish) 100%);
+    background-image: linear-gradient(45deg, var(--dark_purple) 70%, var(--blackish) 100%);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -94,7 +97,7 @@ main {
 #about_me {
     background-color: var(--dark_blue);
     color: var(--light_purple);
-    background-image: linear-gradient(-135deg, var(--dark_blue) 50%, var(--blackish) 100%);
+    background-image: linear-gradient(-135deg, var(--dark_blue) 70%, var(--blackish) 100%);
 }
 
 #about_me > h2 {

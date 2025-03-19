@@ -1,3 +1,8 @@
+const title_section = document.getElementById(title_section);
+const project_section = document.getElementById(project_section);
+const about_me = document.getElementById(about_me);
+const socials = document.getElementById(socials);
+
 const home_btn = document.getElementById(home_btn);
 const project_btn = document.getElementById(project_btn);
 const about_btn = document.getElementById(about_btn);
