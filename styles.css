@@ -61,17 +61,6 @@ main {
     border: 1px solid var(--blackish);
 }
 
-.nav-items button {
-    padding: 0 40px 0 0;
-}
-
-.nav-items {
-    display: flex;
-    flex-direction: row;
-    justify-content: flex-end;
-    align-items: center;
-    list-style: none;
-}
 
 #title_section, #project_section, #about_me {
     position: relative;
@@ -86,10 +75,6 @@ main {
 #title_section {
     color: var(--light_purple);
     background-image: linear-gradient(135deg, var(--dark_blue) 50%, var(--blackish) 100%);
-}
-
-#project_section, #about_me, #socials {
-    display: none;
 }
 
 #project_section {
@@ -143,4 +128,8 @@ footer {
     position: relative;
     padding-left: 5%;
     width: (100vw - 5%);
+}
+
+#project_section, #about_me, #socials {
+    display: none;
 }
