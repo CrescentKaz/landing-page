@@ -27,6 +27,8 @@ main {
     flex-direction: column;
     text-align: center;
     background-image: linear-gradient(165deg, var(--color3) 80%, var(--color1) 100%);
+    min-height: 89vh;
+    margin-top: 5vh;
 }
 
 #nav_bar {
@@ -38,7 +40,6 @@ main {
     z-index: 1;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
     padding-top: 5px;
 }
 
@@ -72,9 +73,9 @@ main {
     padding: 5% 0;
 }
 
+/*
 #title_section {
     color: var(--color2);
-    
 }
 
 #project_section {
@@ -84,16 +85,19 @@ main {
     align-items: center;
     justify-content: center;
 }
+*/
 
 .project-image {
     height: 225px;
     width: 225px;
 }
 
+/*
 #about_section {
     background-color: var(--color3);
     color: var(--color2);
 }
+*/
 
 #about_section > h2 {
     padding: 20px 0 0 0;
