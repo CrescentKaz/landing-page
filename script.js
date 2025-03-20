@@ -1,3 +1,4 @@
+/*
 const homeBtn = document.getElementById(home_btn);
 const projectBtn = document.getElementById(project_btn);
 const aboutBtn = document.getElementById(about_btn);
@@ -7,6 +8,7 @@ homeBtn.onclick = goHome;
 projectBtn.onclick = goProject;
 aboutBtn.onclick = goAbout;
 socialBtn.onclick = goSocial;
+*/
 
 function goHome() {
     title_section.style.display = "contens";
