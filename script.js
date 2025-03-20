@@ -1,8 +1,3 @@
-const titleSection = document.getElementById(title_section);
-const projectSection = document.getElementById(project_section);
-const aboutSection = document.getElementById(about_section);
-const socialSection = document.getElementById(social_section);
-
 const homeBtn = document.getElementById(home_btn);
 const projectBtn = document.getElementById(project_btn);
 const aboutBtn = document.getElementById(about_btn);
@@ -14,29 +9,29 @@ aboutBtn.onclick = goAbout;
 socialBtn.onclick = goSocial;
 
 function goHome() {
-    titleSection.style.display = "contens";
-    projectSection.style.display = "none";
-    aboutSection.style.display = "none";
-    socialSection.style.display = "none";
+    title_section.style.display = "contens";
+    project_section.style.display = "none";
+    about_section.style.display = "none";
+    social_section.style.display = "none";
 };
 
 function goProject() {
-    titleSection.style.display = "none";
-    projectSection.style.display = "contents";
-    aboutSection.style.display = "none";
-    socialSection.style.display = "none";
+    title_section.style.display = "none";
+    project_section.style.display = "contents";
+    about_section.style.display = "none";
+    social_section.style.display = "none";
 };
 
 function goAbout() {
-    titleSection.style.display = "none";
-    projectSection.style.display = "none";
-    aboutSection.style.display = "contents";
-    socialSection.style.display = "none";
+    title_section.style.display = "none";
+    project_section.style.display = "none";
+    about_section.style.display = "contents";
+    social_section.style.display = "none";
 };
 
 function goSocial() {
-    titleSection.style.display = "none";
-    projectSection.style.display = "none";
-    aboutSection.style.display = "none";
-    socialSection.style.display = "contents";
+    title_section.style.display = "none";
+    project_section.style.display = "none";
+    about_section.style.display = "none";
+    social_section.style.display = "contents";
 };
