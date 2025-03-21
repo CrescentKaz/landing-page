@@ -99,7 +99,7 @@ main {
 }
 */
 
-#about_section > h2 {
+#about_section > h2, #project_section > h2 {
     padding: 20px 0 0 0;
 }
 
@@ -114,6 +114,7 @@ main {
 
 #social_section > a {
     color: var(--color2);
+    padding: 20px 0 0 0;
 }
 h1, h2, h3, .para {
     color: var(--color2);
