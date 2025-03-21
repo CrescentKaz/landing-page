@@ -11,7 +11,7 @@ socialBtn.onclick = goSocial;
 */
 
 function goHome() {
-    title_section.style.display = "contens";
+    title_section.style.display = "contents";
     project_section.style.display = "none";
     about_section.style.display = "none";
     social_section.style.display = "none";
