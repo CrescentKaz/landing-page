@@ -73,31 +73,17 @@ main {
     padding: 5% 0;
 }
 
-/*
-#title_section {
-    color: var(--color2);
+#project_section > ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
 }
 
-#project_section {
-    color: var(--color2);
-    text-decoration: none;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-}
-*/
 
 .project-image {
     height: 225px;
     width: 225px;
 }
-
-/*
-#about_section {
-    background-color: var(--color3);
-    color: var(--color2);
-}
-*/
 
 #about_section > h2, #project_section > h2 {
     padding: 20px 0 0 0;
