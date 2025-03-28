@@ -22,15 +22,6 @@ body {
     padding: 0;
 }
 
-main {
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    background-image: linear-gradient(165deg, var(--color3) 80%, var(--color1) 100%);
-    min-height: 89vh;
-    margin-top: 5vh;
-}
-
 #nav_bar {
     position: fixed;
     top: 0;
@@ -63,7 +54,16 @@ main {
     float: right;
 }
 
-#title_section, #project_section, #about_section {
+main {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    background-image: linear-gradient(165deg, var(--color3) 80%, var(--color1) 100%);
+    min-height: 89vh;
+    margin-top: 5vh;
+}
+
+#title_section, #project_section, #about_section, #social_section {
     position: relative;
     min-height: 100vh;
     display: flex;
@@ -72,13 +72,6 @@ main {
     flex-direction: column;
     padding: 5% 0;
 }
-
-#project_section > ul {
-    list-style-position: inside;
-    margin: 0;
-    padding: 0;
-}
-
 
 .project-image {
     height: 225px;
@@ -89,19 +82,11 @@ main {
     padding: 20px 0 0 0;
 }
 
-#social_section {
-    position: relative;
-    height: 5vh;
-    display: flex; 
-    justify-content: space-around;
-    align-items: center;
-    color: var(--color2);
-}
-
 #social_section > a {
     color: var(--color2);
     padding: 20px 0 0 0;
 }
+
 h1, h2, h3, .para {
     color: var(--color2);
     font-family: "Open Sans", sans-serif;
@@ -110,6 +95,12 @@ h1, h2, h3, .para {
 
 .para {
     padding: 0 15%;
+    text-align: left;
+}
+
+.para2 {
+    padding: 0 15%;
+    text-align: center;
 }
 
 footer {
