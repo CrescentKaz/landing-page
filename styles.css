@@ -61,6 +61,7 @@ main {
     background-image: linear-gradient(165deg, var(--color3) 80%, var(--color1) 100%);
     min-height: 89vh;
     margin-top: 5vh;
+    overflow: hidden;
 }
 
 #title_section, #project_section, #about_section, #social_section {
