@@ -82,6 +82,11 @@ main {
     padding: 20px 0 0 0;
 }
 
+#project-title {
+    color: var(--color2);
+    text-decoration: none;
+}
+
 #social_section > a {
     color: var(--color2);
     padding: 20px 0 0 0;
@@ -91,6 +96,7 @@ h1, h2, h3, .para {
     color: var(--color2);
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
+    text-shadow: var(--color4);
 }
 
 .para {
