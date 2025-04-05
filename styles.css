@@ -82,6 +82,7 @@ main {
 .project-image {
     height: 225px;
     width: 225px;
+    padding-bottom: 5vh;
 }
 
 #about_section > h2, #project_section > h2 {
