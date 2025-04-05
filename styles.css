@@ -74,6 +74,11 @@ main {
     padding: 5% 0;
 }
 
+.project-title {
+    color: var(--color2);
+    text-decoration: none;
+}
+
 .project-image {
     height: 225px;
     width: 225px;
@@ -81,11 +86,6 @@ main {
 
 #about_section > h2, #project_section > h2 {
     padding: 20px 0 0 0;
-}
-
-#project-title {
-    color: var(--color2);
-    text-decoration: none;
 }
 
 #social_section > a {
@@ -98,6 +98,10 @@ h1, h2, h3, .para {
     font-family: "Open Sans", sans-serif;
     text-decoration: none;
     text-shadow: var(--color4);
+}
+
+h1, h2, h3 {
+    filter: drop-shadow(0 0 0.75rem var(--color4));
 }
 
 .para {
