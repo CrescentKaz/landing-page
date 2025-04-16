@@ -89,7 +89,7 @@ main {
     padding: 20px 0 0 0;
 }
 
-#social_section > a {
+#social_section > a a:visited {
     color: var(--color2);
     padding: 20px 0 0 0;
 }
