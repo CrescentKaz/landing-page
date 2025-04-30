@@ -89,6 +89,10 @@ main {
     padding: 20px 0 0 0;
 }
 
+#social_group {
+    margin-top: 20vh;
+}
+
 .social_link {
     text-decoration: none;
     color: var(--color2); 
