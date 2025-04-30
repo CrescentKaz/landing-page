@@ -89,7 +89,12 @@ main {
     padding: 20px 0 0 0;
 }
 
-#social_section > a a:visited {
+.social_link {
+    text-decoration: none;
+    color: var(--color2); 
+}
+
+.social_link:visited {
     color: var(--color2);
     padding: 20px 0 0 0;
 }
