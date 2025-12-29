@@ -64,6 +64,10 @@ main {
     overflow: hidden;
 }
 
+#title_section {
+    background-image: src="./images/CrescentKazBackground.png";
+}
+
 #title_section, #project_section, #about_section, #social_section {
     position: relative;
     min-height: 100vh;
