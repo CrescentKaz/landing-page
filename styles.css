@@ -12,6 +12,9 @@
     #nav_bar a {
         padding: 0 10px 0 0 ;
     }
+    #title_section {
+    height: 100vh; 
+    }
 }
 
 body {
@@ -65,7 +68,7 @@ main {
 }
 
 #title_section {
-    background-image: url("./images/CrescentKazBackground.png");
+    background-image: url("./images/CrescentKazBackground.png") no-repeat fixed center;
 }
 
 #title_section, #project_section, #about_section, #social_section {
