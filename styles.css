@@ -68,7 +68,7 @@ main {
 }
 
 #title_section {
-    background-image: url("./images/CrescentKazBackground.png") no-repeat fixed center;
+    background-image: url("/images/CrescentKazBackground.png") no-repeat fixed center;
 }
 
 #title_section, #project_section, #about_section, #social_section {
