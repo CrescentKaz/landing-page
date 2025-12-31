@@ -17,6 +17,10 @@
     }
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     background-color: var(--color1);
     color: var(--color2);
