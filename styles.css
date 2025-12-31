@@ -68,12 +68,16 @@ main {
 }
 
 #title_section {
-    background-image: url("/images/CrescentKazBackground.png") no-repeat fixed center;
+    background-image: url("images/CrescentKazBackground.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
 }
 
 #title_section, #project_section, #about_section, #social_section {
     position: relative;
-    min-height: 100vh;
+    min-height: 85vh;
     display: flex;
     justify-content: center; 
     align-items: center; 
@@ -137,6 +141,6 @@ footer {
     width: (100vw - 5%);
 }
 
-#project_section, #about_section, #social_section {
+/* #project_section, #about_section, #social_section {
     display: none;
-}
+} */
