@@ -1,3 +1,5 @@
+import WaIcon from '@awesome.me/webawesome/dist/react/icon';
+
 /*
 const homeBtn = document.getElementById(home_btn);
 const projectBtn = document.getElementById(project_btn);
