@@ -73,11 +73,19 @@ main {
 }
 
 #title_section {
-    background-image: url("images/CrescentKazBackground.png");
+    background-image: url("images/CrescentKazBackgroundBlank.png");
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+}
+
+.hero-name-image {
+    height: auto;
+    max-height: 25vh;
+    min-width: 60vw;
+    max-width: 90vw;
+    margin-bottom: 5vh;
 }
 
 #title_section, #project_section, #about_section, #social_section {
