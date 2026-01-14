@@ -86,6 +86,7 @@ main {
     min-width: 60vw;
     max-width: 90vw;
     margin-bottom: 5vh;
+    aspect-ratio: auto;
 }
 
 #title_section, #project_section, #about_section, #social_section {
