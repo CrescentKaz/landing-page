@@ -73,14 +73,13 @@ main {
 }
 
 #title_section {
-    background-image: url("images/CrescentKazBackgroundBlank.png") no-repeat fixed center cover;
+    background: url("images/CrescentKazBackgroundBlank.png") no-repeat fixed center;
     min-height: 85vh;
 }
 
 .hero-name-image {
     height: auto;
-    max-height: 25vh;
-    min-width: 60vw;
+    max-height: 40vh;
     max-width: 90vw;
     margin-bottom: 5vh;
     aspect-ratio: auto;
