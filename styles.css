@@ -74,6 +74,7 @@ main {
 
 #title_section {
     background-image: url("images/CrescentKazBackgroundBlank.png") no-repeat fixed center cover;
+    min-height: 85vh;
 }
 
 .hero-name-image {
@@ -87,7 +88,6 @@ main {
 
 #title_section, #project_section, #about_section, #social_section {
     position: relative;
-    min-height: 85vh;
     display: flex;
     justify-content: center; 
     align-items: center; 
