@@ -16,6 +16,9 @@
     height: 100vh; 
     background-origin: border-box;
     }
+    #project-grid {
+        display: flex;
+    }
 }
 
 html {
