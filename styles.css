@@ -99,6 +99,11 @@ main {
     text-decoration: none;
 }
 
+#project-grid {
+    display: grid;
+    grid-template-columns: auto auto auto;
+}
+
 .project-image {
     height: 225px;
     width: 225px;
