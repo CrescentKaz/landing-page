@@ -13,11 +13,11 @@
         padding: 0 10px 0 0 ;
     }
     #title_section {
-    height: 100vh; 
-    background-origin: border-box;
+        height: 100vh; 
+        background-origin: border-box;
     }
     #project-grid {
-        grid-template-columns: auto;
+        grid-template-columns: 75%;
     }
 }
 
