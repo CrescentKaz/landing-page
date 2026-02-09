@@ -5,7 +5,7 @@
     --color4: #41418f;
 }
 
-@media (min-width: 75em) {
+@media (max-width: 767px) {
     body {
         font-size: 125%;
     }
