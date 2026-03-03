@@ -17,7 +17,8 @@
         background-origin: border-box;
     }
     #project-grid {
-        grid-template-columns: 75%;
+        display: grid;
+        grid-template-columns: auto;
     }
     #social_group {
         display: grid;
