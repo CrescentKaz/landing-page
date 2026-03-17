@@ -20,11 +20,8 @@
         display: grid;
         grid-template-columns: repeat(4, 1fr);
     }
-}
-
-@media (min-width: 767px) {
-    #project_grid {
-        grid-template-columns: 1fr 1fr 1fr;
+    .project-tile {
+        flex: 100%;
     }
 }
 
@@ -104,15 +101,18 @@ main {
     padding: 5% 0;
 }
 
+.project-tile {
+    text-align: center;
+}
+
 .project-title {
     color: var(--color2);
     text-decoration: none;
 }
 
 #project-grid {
-    display: grid;
-    grid-template-columns: 1fr;
-    grid-gap: 10px;
+    display: flex;
+    flex-wrap: wrap;
     padding: 10px;
 }
 
